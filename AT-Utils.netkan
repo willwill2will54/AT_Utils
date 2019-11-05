@@ -1,7 +1,7 @@
 {
     "spec_version" : 1,
     "identifier"   : "AT-Utils",
-    "$kref"        : "#/ckan/github/allista/AT_Utils",
+    "$kref"        : "#/ckan/github/willwill2will54/AT_Utils",
     "$vref"        : "#/ckan/ksp-avc",
     "name"         : "AT Utils",
     "author"       : [ "allista" ],
@@ -14,6 +14,18 @@
             "file"       : "GameData/000_AT_Utils",
             "install_to" : "GameData"
         }
+        {
+            "file": "GameData/ConfigurableContainers/TankTypes.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        },
+        {
+            "file": "GameData/ConfigurableContainers/TankConfigs.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        },
+        {
+            "file": "GameData/ConfigurableContainers/Cryogenics.cfg",
+            "install_to": "GameData/ConfigurableContainers"
+        }
     ],
     
     "resources": 
@@ -22,9 +34,5 @@
         "homepage"     : "https://github.com/allista/AT_Utils",
         "repository"   : "https://github.com/allista/AT_Utils"
     },
-    
-    "depends": 
-    [
-        { "name": "ConfigurableContainers-Core" }
-    ]
+
 }
