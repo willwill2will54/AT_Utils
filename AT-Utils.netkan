@@ -13,7 +13,7 @@
         {
             "file"       : "GameData/000_AT_Utils",
             "install_to" : "GameData"
-        }
+        },
         {
             "file": "GameData/ConfigurableContainers/TankTypes.cfg",
             "install_to": "GameData/ConfigurableContainers"
