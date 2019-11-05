@@ -33,6 +33,6 @@
         "bugtracker"   : "https://github.com/allista/AT_Utils/issues",
         "homepage"     : "https://github.com/allista/AT_Utils",
         "repository"   : "https://github.com/allista/AT_Utils"
-    },
+    }
 
 }
